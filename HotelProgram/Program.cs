@@ -455,6 +455,7 @@ namespace HotelProgram
                             Console.WriteLine("----------------------------------");
                             Console.WriteLine("Menu for Guided trips:");
                             Console.WriteLine("----------------------------------");
+                            Console.WriteLine("*Pay attention as to the dates of travel!*");
                             Console.WriteLine("1: Experience the Amalfi Coast");
                             Console.WriteLine("2: Rome to Amalfi");
                             Console.WriteLine("3: The best of Spain");
@@ -466,18 +467,34 @@ namespace HotelProgram
                                 case 1:
                                     Console.WriteLine("Trip to Amalfi Coast span over 8 days.");
                                     Console.WriteLine("Total cost of: £120");
+                                    Console.WriteLine("Traveldays: 06/11-20 - 06/19-20");
+                                    Console.WriteLine("Press any key to go back to main menu.");
+                                    Console.ReadKey();
+                                    Console.Clear();
                                     break;
                                 case 2:
                                     Console.WriteLine("Trip between ROme and Amalfi spans over 8 days.");
                                     Console.WriteLine("Total cost of: £400");
+                                    Console.WriteLine("Traveldays: 06/08-20 - 06/16-20");
+                                    Console.WriteLine("Press any key to go back to main menu.");
+                                    Console.ReadKey();
+                                    Console.Clear();
                                     break;
                                 case 3:
                                     Console.WriteLine("Trip to the best parts of Spain spans over 12 days.");
                                     Console.WriteLine("Total cost of: £300");
+                                    Console.WriteLine("Traveldays: 06/14-20 - 06/28-20");
+                                    Console.WriteLine("Press any key to go back to main menu.");
+                                    Console.ReadKey();
+                                    Console.Clear();
                                     break;
                                 case 4:
                                     Console.WriteLine("Trip to Machu Picchu spans over 11 days.");
                                     Console.WriteLine("Total cost of: £200");
+                                    Console.WriteLine("Traveldays: 08/11-20 - 08/19-20");
+                                    Console.WriteLine("Press any key to go back to main menu.");
+                                    Console.ReadKey();
+                                    Console.Clear();
                                     break;
                                 case 5:
                                     Random rng = new Random();
@@ -509,7 +526,7 @@ namespace HotelProgram
                 }
                 else
                 {
-                    Console.WriteLine("Fel. Var god välj en godkänd siffra.");
+                    Console.WriteLine("Invalid input. Try again.");
                 }
             }
         }
